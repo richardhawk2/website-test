@@ -2,7 +2,23 @@
 
 //This is a sandbox file for testing JavaScript learnings
 //Finished on https://javascript.info/operators
-const myBirthday = '03/09/1996';
+let userName = prompt("Who's there?", 'Enter Username');
 
-let userName = prompt ('What is your name?', '');
-alert("Your name is " + userName + "!");
+if (userName == "Admin"){
+   let password = prompt("Please enter your password.", 'Enter Password');
+   if (password == "TheMaster"){
+       alert("Welcome!");
+   }
+   else if (password == '' || password === null){
+       alert("Canceled.")
+   }
+   else{
+       alert("I don't know you.");
+   }
+}
+else if (userName == '' || userName === null){
+    alert ("Canceled.");
+}
+else{
+    alert ("I don't know you.");
+}
