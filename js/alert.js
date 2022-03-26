@@ -1,7 +1,7 @@
 "use strict"; //NOTE: Investigate this further. Most tutorials encourage "use strict".
 
 //This is a sandbox file for testing JavaScript learnings
-//Finished on https://javascript.info/operators
+//Next up: https://javascript.info/nullish-coalescing-operator
 let userName = prompt("Who's there?", 'Enter Username');
 
 if (userName == "Admin"){
